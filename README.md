@@ -1,7 +1,7 @@
 Hand Gesture-Based Volume Control System
 This project is a real-time hand gesture-based volume control system built using Python, OpenCV, MediaPipe, and PyCAW. It allows users to control the system volume by simply moving their fingers in front of the webcam.
 
-🔧 Features
+<b>🔧 Features</b>
 Detects hand landmarks using MediaPipe
 
 Tracks thumb and index finger tips
@@ -14,7 +14,7 @@ Provides real-time feedback with smooth and responsive UI
 
 Runs directly from webcam input
 
-🛠 Technologies Used
+<b>🛠 Technologies Used</b>
 Python
 
 OpenCV
