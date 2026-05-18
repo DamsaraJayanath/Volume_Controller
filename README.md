@@ -1,10 +1,10 @@
-<h1>✋ Hand Gesture-Based Volume Control System</h1>
+# Hand Gesture-Based Volume Control System
 
 <p>
 This project is a real-time hand gesture-based volume control system built using <strong>Python</strong>, <strong>OpenCV</strong>, <strong>MediaPipe</strong>, and <strong>PyCAW</strong>. It allows users to control the system volume by simply moving their fingers in front of the webcam.
 </p>
 
-<h2>🔧 Features</h2>
+<h2>Features</h2>
 <ul>
   <li>Detects hand landmarks using <strong>MediaPipe</strong></li>
   <li>Tracks thumb and index finger tips</li>
@@ -14,7 +14,7 @@ This project is a real-time hand gesture-based volume control system built using
   <li>Runs directly from webcam input</li>
 </ul>
 
-<h2>🛠 Technologies Used</h2>
+<h2>Technologies Used</h2>
 <ul>
   <li>Python</li>
   <li>OpenCV</li>
@@ -23,13 +23,13 @@ This project is a real-time hand gesture-based volume control system built using
   <li>NumPy</li>
 </ul>
 
-<h2>📂 File Structure</h2>
+## File Structure
 <ul>
   <li><code>handTrack.py</code>: Hand tracking module using MediaPipe</li>
   <li><code>test.py</code>: Main application to control volume based on finger distance</li>
 </ul>
 
-<h2>📌 How It Works</h2>
+<h2> How It Works</h2>
 <ol>
   <li>The system captures video from the webcam.</li>
   <li>Detects the user's hand and tracks landmarks.</li>
@@ -38,12 +38,12 @@ This project is a real-time hand gesture-based volume control system built using
   <li>Updates the volume and shows a visual representation on the screen.</li>
 </ol>
 
-<h2>▶️ Usage</h2>
+<h2> Usage</h2>
 <p>Run the following command to start the application:</p>
 <pre><code>python test.py</code></pre>
 <p>Press <code>q</code> to quit the program.</p>
 
-<h2>⚠️ Requirements</h2>
+<h2>Requirements</h2>
 <ul>
   <li>Windows OS (required by Pycaw)</li>
   <li>Webcam</li>
